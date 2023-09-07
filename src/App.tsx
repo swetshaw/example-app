@@ -8,7 +8,7 @@ function App() {
   return (
     <ChakraProvider>
       <Flex alignItems='center' justifyContent='center' w='100%' h='100vh'>
-      <ImportReclaimProofs label='Import from Reclaim' webHook='jhvh' isProofsReceived={true} />
+      <ImportReclaimProofs label='Import from Reclaim' webHook='https://mybackend.com' isProofsReceived={true} />
       </Flex>
     </ChakraProvider>
   );
