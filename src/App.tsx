@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { ImportReclaimProofs } from '@swetshaw/react-component'
 import { ChakraProvider, Flex } from '@chakra-ui/react'
-
+import { ImportReclaimProofs } from '@reclaimprotocol/reclaim-react';
 
 function App() {
   return (
